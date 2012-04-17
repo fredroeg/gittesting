@@ -14,7 +14,7 @@
         $from = $_POST['Email'];
         $headers = "From:" . $from;
         mail($to,$subject,$message,$headers);
-        echo "Mail Sent.";
+        echo "Mail werd verzonden.";
     }
 ?>
         <title>Roger That - Contact</title>
